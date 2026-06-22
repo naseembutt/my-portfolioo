@@ -96,8 +96,9 @@ export default function App() {
           <div className="h-0.5 w-12 bg-gradient-to-r from-purple-500 to-indigo-500 rounded-full"></div>
         </div>
 
+        {/* 8 Projects Grid Layout */}
         <div className="grid md:grid-cols-2 gap-6">
-          {/* Project 1 */}
+          {/* Project 1: Who Pays the Bill */}
           <div className="bg-[#13161c]/80 border border-gray-800/50 p-6 rounded-2xl shadow-xl hover:border-purple-500/30 transition-all duration-300 hover:-translate-y-1 group">
             <span className="text-[10px] uppercase font-bold tracking-wider text-purple-400 bg-purple-500/10 px-2 py-0.5 rounded">
               React App
@@ -117,7 +118,7 @@ export default function App() {
                 Source Code →
               </a>
               <a
-                href="#"
+                href="https://storeeappp-hy98mdgy7-naseembutts-projects.vercel.app/"
                 className="text-xs text-purple-400 hover:text-purple-300 font-medium transition-colors"
               >
                 Live Link ↗
@@ -125,7 +126,7 @@ export default function App() {
             </div>
           </div>
 
-          {/* Project 2 */}
+          {/* Project 2: Typing Test Engine */}
           <div className="bg-[#13161c]/80 border border-gray-800/50 p-6 rounded-2xl shadow-xl hover:border-emerald-500/30 transition-all duration-300 hover:-translate-y-1 group">
             <span className="text-[10px] uppercase font-bold tracking-wider text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded">
               Vanilla JS
@@ -152,6 +153,174 @@ export default function App() {
               </a>
             </div>
           </div>
+
+          {/* Project 3: React News App */}
+          <div className="bg-[#13161c]/80 border border-gray-800/50 p-6 rounded-2xl shadow-xl hover:border-blue-500/30 transition-all duration-300 hover:-translate-y-1 group">
+            <span className="text-[10px] uppercase font-bold tracking-wider text-blue-400 bg-blue-500/10 px-2 py-0.5 rounded">
+              React & API
+            </span>
+            <h4 className="text-lg font-semibold mt-2 mb-2 text-white group-hover:text-blue-300 transition-colors">
+              React News App
+            </h4>
+            <p className="text-gray-400 text-sm mb-6 font-light leading-relaxed">
+              A dynamic news application fetching and displaying real-time
+              global updates from fresh media channels.
+            </p>
+            <div className="flex gap-4">
+              <a
+                href="#"
+                className="text-xs text-gray-400 hover:text-white transition-colors"
+              >
+                Source Code →
+              </a>
+              <a
+                href="https://newsreactt.vercel.app/"
+                className="text-xs text-blue-400 hover:text-blue-300 font-medium transition-colors"
+              >
+                Live Link ↗
+              </a>
+            </div>
+          </div>
+
+          {/* Project 4: Project Three */}
+          <div className="bg-[#13161c]/80 border border-gray-800/50 p-6 rounded-2xl shadow-xl hover:border-indigo-500/30 transition-all duration-300 hover:-translate-y-1 group">
+            <span className="text-[10px] uppercase font-bold tracking-wider text-indigo-400 bg-indigo-500/10 px-2 py-0.5 rounded">
+              Frontend App
+            </span>
+            <h4 className="text-lg font-semibold mt-2 mb-2 text-white group-hover:text-indigo-300 transition-colors">
+              E-Commerce Store / App
+            </h4>
+            <p className="text-gray-400 text-sm mb-6 font-light leading-relaxed">
+              A modern user interface developed with optimized styling and
+              layout controls.
+            </p>
+            <div className="flex gap-4">
+              <a
+                href="#"
+                className="text-xs text-gray-400 hover:text-white transition-colors"
+              >
+                Source Code →
+              </a>
+              <a
+                href="https://propjectthree.vercel.app/"
+                className="text-xs text-indigo-400 hover:text-indigo-300 font-medium transition-colors"
+              >
+                Live Link ↗
+              </a>
+            </div>
+          </div>
+
+          {/* Project 5: React Navigation Hub */}
+          <div className="bg-[#13161c]/80 border border-gray-800/50 p-6 rounded-2xl shadow-xl hover:border-amber-500/30 transition-all duration-300 hover:-translate-y-1 group">
+            <span className="text-[10px] uppercase font-bold tracking-wider text-amber-400 bg-amber-500/10 px-2 py-0.5 rounded">
+              React UI
+            </span>
+            <h4 className="text-lg font-semibold mt-2 mb-2 text-white group-hover:text-amber-300 transition-colors">
+              React Navigation Hub
+            </h4>
+            <p className="text-gray-400 text-sm mb-6 font-light leading-relaxed">
+              A clean, fully responsive navigation and layout workflow designed
+              for seamless user routing.
+            </p>
+            <div className="flex gap-4">
+              <a
+                href="#"
+                className="text-xs text-gray-400 hover:text-white transition-colors"
+              >
+                Source Code →
+              </a>
+              <a
+                href="https://projectreactnav.vercel.app/"
+                className="text-xs text-amber-400 hover:text-amber-300 font-medium transition-colors"
+              >
+                Live Link ↗
+              </a>
+            </div>
+          </div>
+
+          {/* Project 6: Responsive Web Interface */}
+          <div className="bg-[#13161c]/80 border border-gray-800/50 p-6 rounded-2xl shadow-xl hover:border-cyan-500/30 transition-all duration-300 hover:-translate-y-1 group">
+            <span className="text-[10px] uppercase font-bold tracking-wider text-cyan-400 bg-cyan-500/10 px-2 py-0.5 rounded">
+              Frontend Framework
+            </span>
+            <h4 className="text-lg font-semibold mt-2 mb-2 text-white group-hover:text-cyan-300 transition-colors">
+              Responsive Web Interface
+            </h4>
+            <p className="text-gray-400 text-sm mb-6 font-light leading-relaxed">
+              An optimized layout showcasing custom component architecture and
+              clean styling design.
+            </p>
+            <div className="flex gap-4">
+              <a
+                href="#"
+                className="text-xs text-gray-400 hover:text-white transition-colors"
+              >
+                Source Code →
+              </a>
+              <a
+                href="https://projecttwoo.vercel.app/"
+                className="text-xs text-cyan-400 hover:text-cyan-300 font-medium transition-colors"
+              >
+                Live Link ↗
+              </a>
+            </div>
+          </div>
+
+          {/* Project 7: jQuery Dynamic Engine */}
+          <div className="bg-[#13161c]/80 border border-gray-800/50 p-6 rounded-2xl shadow-xl hover:border-pink-500/30 transition-all duration-300 hover:-translate-y-1 group">
+            <span className="text-[10px] uppercase font-bold tracking-wider text-pink-400 bg-pink-500/10 px-2 py-0.5 rounded">
+              jQuery / JS
+            </span>
+            <h4 className="text-lg font-semibold mt-2 mb-2 text-white group-hover:text-pink-300 transition-colors">
+              jQuery Dynamic Engine
+            </h4>
+            <p className="text-gray-400 text-sm mb-6 font-light leading-relaxed">
+              An interactive UI module utilizing jQuery for smooth animations,
+              event handling, and dynamic element manipulation.
+            </p>
+            <div className="flex gap-4">
+              <a
+                href="https://github.com/naseembutt/jquery"
+                className="text-xs text-gray-400 hover:text-white transition-colors"
+              >
+                Source Code →
+              </a>
+              <a
+                href="https://naseembutt.github.io/jquery/"
+                className="text-xs text-pink-400 hover:text-pink-300 font-medium transition-colors"
+              >
+                Live Link ↗
+              </a>
+            </div>
+          </div>
+
+          {/* Project 8: Interactive Web Module (Folder7) */}
+          <div className="bg-[#13161c]/80 border border-gray-800/50 p-6 rounded-2xl shadow-xl hover:border-teal-500/30 transition-all duration-300 hover:-translate-y-1 group">
+            <span className="text-[10px] uppercase font-bold tracking-wider text-teal-400 bg-teal-500/10 px-2 py-0.5 rounded">
+              Core Frontend
+            </span>
+            <h4 className="text-lg font-semibold mt-2 mb-2 text-white group-hover:text-teal-300 transition-colors">
+              Interactive Web Module
+            </h4>
+            <p className="text-gray-400 text-sm mb-6 font-light leading-relaxed">
+              A clean frontend application focused on structures, fluid layout
+              responsiveness, and optimal logic controls.
+            </p>
+            <div className="flex gap-4">
+              <a
+                href="https://github.com/naseembutt/folder7"
+                className="text-xs text-gray-400 hover:text-white transition-colors"
+              >
+                Source Code →
+              </a>
+              <a
+                href="https://naseembutt.github.io/folder7/"
+                className="text-xs text-teal-400 hover:text-teal-300 font-medium transition-colors"
+              >
+                Live Link ↗
+              </a>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -168,7 +337,7 @@ export default function App() {
           scopes.
         </p>
         <a
-          href="mailto:naseem@example.com"
+          href="mailto:naseembuttnova@gmail.com"
           className="inline-block text-sm bg-[#141820] border border-gray-800 hover:border-purple-500/50 px-6 py-3 rounded-xl font-medium tracking-wide text-purple-300 hover:text-white transition-all duration-300"
         >
           naseembuttnova@gmail.com
