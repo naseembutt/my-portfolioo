@@ -40,7 +40,7 @@ export default function App() {
             MERN Reality.
           </span>
         </h2>
-        <p className="text-gray-400 text-base md:text-lg max-w-xl mx-auto mb-10 leading-relaxed font-light">
+        <p className="text-gray-400 text-base md:text-lg max-w-xl mx-auto mb-4 leading-relaxed font-light">
           Hi, I build elegant, functional, and seamless web experiences with
           MongoDB, Express, React, and Node.js.
         </p>
@@ -53,7 +53,7 @@ export default function App() {
       </header>
 
       {/* Skills Section */}
-      <section className="relative z-10 max-w-4xl mx-auto px-5 py-12">
+      <section className="relative z-10 max-w-4xl mx-auto px-5 py-6">
         <h3 className="text-xs font-semibold tracking-widest text-purple-400/80 uppercase text-center mb-8">
           Technical Toolkit
         </h3>
@@ -190,17 +190,26 @@ export default function App() {
           </div>
         </div>
       </section>
-      {/* Contact Section */}
-      <section
-        id="contact"
-        className="relative z-10 max-w-2xl mx-auto px-5 py-24 text-center border-t border-gray-800/40"
-      >
-        <h3 className="text-2xl font-bold tracking-tight text-white mb-2">
-          Let's Connect
-        </h3>
-        <a href="mailto:naseembuttnova@gmail.com" className="text-purple-300">
-          naseembuttnova@gmail.com
-        </a>
+      {/* Contact Section - Properly Styled & Centered */}
+      <section id="contact" className="max-w-md mx-auto px-5 pb-2">
+        <div className="bg-[#13161c]/60 border border-gray-800/60 p-3 rounded-2xl shadow-2xl backdrop-blur-sm text-center">
+          <h2 className="text-xl font-bold text-white mb-4">Get In Touch</h2>
+          <div className="space-y-2 text-sm text-gray-300">
+            <p>Email: naseembuttnova@gmail.com</p>
+            <p>WhatsApp: +92 3216417472</p>
+          </div>
+
+          <div className="mt-4 pt-4 border-t border-gray-800/50">
+            <a
+              href="https://github.com/naseembutt"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white hover:text-purple-400 text-sm font-medium transition-colors"
+            >
+              Visit My GitHub →
+            </a>
+          </div>
+        </div>
       </section>
     </div>
   );
