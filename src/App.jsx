@@ -161,9 +161,35 @@ export default function App() {
               Live Link ↗
             </a>
           </div>
+          {/* Project: Monthly Expenses */}
+          <div className="bg-[#13161c]/80 border border-gray-800/50 p-6 rounded-2xl shadow-xl hover:border-emerald-500/30 transition-all duration-300 hover:-translate-y-1 group">
+            <span className="text-[10px] uppercase font-bold tracking-wider text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded">
+              Web App
+            </span>
+            <h4 className="text-lg font-semibold mt-2 mb-2 text-white group-hover:text-emerald-300 transition-colors">
+              Monthly Expenses
+            </h4>
+            <p className="text-gray-400 text-sm mb-6 font-light leading-relaxed">
+              A clean interface to track and manage your monthly financial
+              expenses efficiently.
+            </p>
+            <div className="flex gap-4">
+              <a
+                href="https://github.com/naseembutt/monthly-expenses-"
+                className="text-xs text-gray-400 hover:text-white transition-colors"
+              >
+                Source Code →
+              </a>
+              <a
+                href="https://naseembutt.github.io/monthly-expenses-/"
+                className="text-xs text-emerald-400 hover:text-emerald-300 font-medium transition-colors"
+              >
+                Live Link ↗
+              </a>
+            </div>
+          </div>
         </div>
       </section>
-
       {/* Contact Section */}
       <section
         id="contact"
