@@ -34,19 +34,16 @@ export default function App() {
           <span className="w-1.5 h-1.5 rounded-full bg-purple-400"></span>
           Open to Opportunities
         </div>
-
         <h2 className="text-4xl md:text-6xl font-black tracking-tight text-white mb-6 leading-tight">
           Crafting digital ideas into{" "}
           <span className="bg-gradient-to-r from-purple-400 via-indigo-400 to-emerald-400 bg-clip-text text-transparent">
             MERN Reality.
           </span>
         </h2>
-
         <p className="text-gray-400 text-base md:text-lg max-w-xl mx-auto mb-10 leading-relaxed font-light">
           Hi, I build elegant, functional, and seamless web experiences with
           MongoDB, Express, React, and Node.js.
         </p>
-
         <a
           href="#projects"
           className="relative group overflow-hidden bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-500 hover:to-indigo-500 text-white px-8 py-3.5 rounded-xl font-medium tracking-wide shadow-lg shadow-purple-900/20 transition-all duration-300 inline-block hover:-translate-y-0.5"
@@ -76,7 +73,7 @@ export default function App() {
         </div>
       </section>
 
-      {/* Projects Section */}
+      {/* Projects Section - FIXED */}
       <section
         id="projects"
         className="relative z-10 max-w-4xl mx-auto px-5 py-20"
@@ -89,60 +86,80 @@ export default function App() {
         </div>
 
         <div className="grid md:grid-cols-2 gap-6">
-          {/* Monthly Expenses */}
-          <div className="bg-[#13161c]/80 border border-gray-800/50 p-6 rounded-2xl shadow-xl hover:border-emerald-500/30 transition-all duration-300 hover:-translate-y-1 group">
-            <span className="text-[10px] uppercase font-bold tracking-wider text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded">
-              Web App
+          {/* Project 1: News App */}
+          <div className="bg-[#13161c]/80 border border-gray-800/50 p-6 rounded-2xl shadow-xl hover:border-blue-500/30 transition-all duration-300 hover:-translate-y-1 group">
+            <span className="text-[10px] uppercase font-bold text-blue-400">
+              React & API
             </span>
-            <h4 className="text-lg font-semibold mt-2 mb-2 text-white group-hover:text-emerald-300 transition-colors">
-              Monthly Expenses
+            <h4 className="text-lg font-semibold mt-2 text-white">
+              React News App
             </h4>
-            <p className="text-gray-400 text-sm mb-6 font-light leading-relaxed">
-              A clean interface to track and manage your monthly financial
-              expenses efficiently.
+            <p className="text-gray-400 text-sm mb-4">
+              Fetching real-time global updates.
             </p>
-            <div className="flex gap-4">
-              <a
-                href="https://github.com/naseembutt/monthly-expenses-"
-                className="text-xs text-gray-400 hover:text-white transition-colors"
-              >
-                Source Code →
-              </a>
-              <a
-                href="https://naseembutt.github.io/monthly-expenses-/"
-                className="text-xs text-emerald-400 hover:text-emerald-300 font-medium transition-colors"
-              >
-                Live Link ↗
-              </a>
-            </div>
+            <a
+              href="https://newsreactt.vercel.app/"
+              className="text-xs text-blue-400"
+            >
+              Live Link ↗
+            </a>
           </div>
 
-          {/* Typing Test */}
-          <div className="bg-[#13161c]/80 border border-gray-800/50 p-6 rounded-2xl shadow-xl hover:border-emerald-500/30 transition-all duration-300 hover:-translate-y-1 group">
-            <span className="text-[10px] uppercase font-bold tracking-wider text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded">
-              Vanilla JS
+          {/* Project 2: Navigation Hub */}
+          <div className="bg-[#13161c]/80 border border-gray-800/50 p-6 rounded-2xl shadow-xl hover:border-amber-500/30 transition-all duration-300 hover:-translate-y-1 group">
+            <span className="text-[10px] uppercase font-bold text-amber-400">
+              React UI
             </span>
-            <h4 className="text-lg font-semibold mt-2 mb-2 text-white group-hover:text-emerald-300 transition-colors">
-              Typing Test Engine
+            <h4 className="text-lg font-semibold mt-2 text-white">
+              React Navigation Hub
             </h4>
-            <p className="text-gray-400 text-sm mb-6 font-light leading-relaxed">
-              High-accuracy calculation layout designed to track typing errors
-              and WPM metrics instantly.
+            <p className="text-gray-400 text-sm mb-4">
+              Responsive navigation and routing.
             </p>
-            <div className="flex gap-4">
-              <a
-                href="https://github.com/naseembutt/Typing-test"
-                className="text-xs text-gray-400 hover:text-white transition-colors"
-              >
-                Source Code →
-              </a>
-              <a
-                href="https://naseembutt.github.io/Typing-test/"
-                className="text-xs text-emerald-400 hover:text-emerald-300 font-medium transition-colors"
-              >
-                Live Link ↗
-              </a>
-            </div>
+            <a
+              href="https://projectreactnav.vercel.app/"
+              className="text-xs text-amber-400"
+            >
+              Live Link ↗
+            </a>
+          </div>
+
+          {/* Project 3: Responsive Interface */}
+          <div className="bg-[#13161c]/80 border border-gray-800/50 p-6 rounded-2xl shadow-xl hover:border-cyan-500/30 transition-all duration-300 hover:-translate-y-1 group">
+            <span className="text-[10px] uppercase font-bold text-cyan-400">
+              Frontend
+            </span>
+            <h4 className="text-lg font-semibold mt-2 text-white">
+              Responsive Web Interface
+            </h4>
+            <p className="text-gray-400 text-sm mb-4">
+              Custom component architecture.
+            </p>
+            <a
+              href="https://projecttwoo.vercel.app/"
+              className="text-xs text-cyan-400"
+            >
+              Live Link ↗
+            </a>
+          </div>
+
+          {/* Project 4: jQuery Engine */}
+          <div className="bg-[#13161c]/80 border border-gray-800/50 p-6 rounded-2xl shadow-xl hover:border-pink-500/30 transition-all duration-300 hover:-translate-y-1 group">
+            <span className="text-[10px] uppercase font-bold text-pink-400">
+              jQuery / JS
+            </span>
+            <h4 className="text-lg font-semibold mt-2 text-white">
+              jQuery Dynamic Engine
+            </h4>
+            <p className="text-gray-400 text-sm mb-4">
+              Interactive UI and animations.
+            </p>
+            <a
+              href="https://naseembutt.github.io/jquery/"
+              className="text-xs text-pink-400"
+            >
+              Live Link ↗
+            </a>
           </div>
         </div>
       </section>
@@ -155,14 +172,7 @@ export default function App() {
         <h3 className="text-2xl font-bold tracking-tight text-white mb-2">
           Let's Connect
         </h3>
-        <p className="text-gray-400 text-sm max-w-sm mx-auto mb-8 font-light">
-          Available immediately for onboarding, internships, or freelancing
-          scopes.
-        </p>
-        <a
-          href="mailto:naseembuttnova@gmail.com"
-          className="inline-block text-sm bg-[#141820] border border-gray-800 hover:border-purple-500/50 px-6 py-3 rounded-xl font-medium tracking-wide text-purple-300 hover:text-white transition-all duration-300"
-        >
+        <a href="mailto:naseembuttnova@gmail.com" className="text-purple-300">
           naseembuttnova@gmail.com
         </a>
       </section>
